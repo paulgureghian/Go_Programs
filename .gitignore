@@ -10,3 +10,8 @@
 
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
+Go_Projects.code-workspace
+desktop.ini
+.vscode/settings.json
+goweek/.codeclimate.yml
+goweek/.travis.yml
