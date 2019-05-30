@@ -9,12 +9,11 @@ func main() {
 	week, goweek_err := goweek.NewWeek(2015, 33)
 
 	n, print_err := fmt.Println(week)
-
-	fmt.Println(week)
-	fmt.Println(goweek_err)
+	n1, print_err1 := fmt.Println(goweek_err)
 
 	fmt.Println(n)
 	fmt.Println(print_err)
 
-	fmt.Println("Hello World")
+	fmt.Println(n1)
+	fmt.Println(print_err1)
 }
