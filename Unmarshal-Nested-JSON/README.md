@@ -1,0 +1,1 @@
+JSON will often be the best choice when working with data and writing JavaScript code, because it is a natural format of the language. However, there are implementations for many languages, Go being one of them.
