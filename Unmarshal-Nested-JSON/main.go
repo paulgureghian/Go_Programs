@@ -7,7 +7,7 @@ import (
 
 const jsonText = `
 {
- "librairies": [
+ "libraries": [
 	{
 	 "name": "Paul Gureghian",
 	 "city": "los Angeles",
