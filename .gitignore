@@ -15,3 +15,5 @@ desktop.ini
 .vscode/settings.json
 goweek/.codeclimate.yml
 goweek/.travis.yml
+Unmarshal-Nested-JSON/main
+.DS_Store
