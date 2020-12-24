@@ -30,9 +30,9 @@ const jsonText = `
 		 "author": "Mark Manson",
 		 "available": false		
 		}
-	   ]
-	  }
-    ]
+	  ]
+	}
+  ]
 }`
 
 // Libraries is exported
