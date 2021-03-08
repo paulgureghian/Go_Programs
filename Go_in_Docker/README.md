@@ -1,0 +1,1 @@
+Golang app in a container with hot reloading and dynamic local package
