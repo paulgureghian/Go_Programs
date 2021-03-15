@@ -18,7 +18,7 @@ func (d Direction) String() string {
 	return [...]string{"North", "East", "South", "West"}[d-1]
 }
 
-// EnumIndex - Creating common behavior - give the type a EnumIndex functio
+// EnumIndex - Creating common behavior - give the type a EnumIndex function
 func (d Direction) EnumIndex() int {
 	return int(d)
 }
