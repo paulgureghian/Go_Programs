@@ -25,5 +25,7 @@ func main() {
 	WeatherModel := <-weatherReturn
 
 	// Print current temperature.
-	fmt.Sprintf("Current Temperature: %.1f\u00B0C", WeatherModel.Current.Temp)
+	println()
+	fmt.Printf("Current Temperature: %.1f\u00B0C\n", WeatherModel.Current.Temp)
+	println()
 }
