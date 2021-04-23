@@ -1,4 +1,4 @@
-A weather program written Go. 
+A weather program written in Go. 
 
 It uses APIs from two sources.
 
