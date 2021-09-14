@@ -9,4 +9,4 @@ import (
 	"sort"
 )
 
-func 
+func isHandOfStraights
