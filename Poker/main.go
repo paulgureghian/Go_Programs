@@ -9,4 +9,8 @@ import (
 	"sort"
 )
 
+<<<<<<< HEAD
 func isHandOfStraights
+=======
+func 
+>>>>>>> 8882fa060e2314a97f9ca08de7506dbc90c4eb0a
