@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"log"
 	"net/http"
 
@@ -13,6 +14,7 @@ func main() {
 
 	http.Handle("/api/", router)
 
+	fmt.Println("Go server")
 	log.Println("Listening...")
 	log.Fatal(http.ListenAndServe(":8081", router))
 
