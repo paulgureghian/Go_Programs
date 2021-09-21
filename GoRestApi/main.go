@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"log"
 	"net/http"
+	"os"
 
 	"github.com/paulgureghian/Go_Programs/GoRestApi/routes"
 )
@@ -16,6 +17,6 @@ func main() {
 
 	fmt.Println("Go server")
 	log.Println("Listening...")
-	log.Fatal(http.ListenAndServe(":8081", router))
+	log.Fatal(http.ListenAndServe(":" + os.Getenv("PORT"), router))
 
 }
