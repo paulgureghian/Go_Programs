@@ -25,8 +25,8 @@ func MovieRoutes() *mux.Router {
 
 	router.HandleFunc("/api/movies", controller.AddMovie).Methods(http.MethodPost)
 	router.HandleFunc("/api/movies", controller.GetAllMovies).Methods(http.MethodGet)
-	router.HandleFunc("/api/movies/:id", controller.GetMovieById).Methods(http.MethodGet)
-	router.HandleFunc("/api/movies", controller.DeleteMovieById).Methods(http.MethodDelete)
+	router.HandleFunc("/api/movies/{id}", controller.GetMovieById).Methods(http.MethodGet)
+	router.HandleFunc("/api/movies/{id}", controller.DeleteMovieById).Methods(http.MethodDelete)
 	router.HandleFunc("/api/movies", controller.UpdateMovie).Methods(http.MethodPut)
 
 	return router
