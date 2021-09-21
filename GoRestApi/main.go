@@ -1,20 +1,19 @@
 package main
 
 import (
-	"fmt"
-	"github.com/gorilla/mux"
 	"log"
 	"net/http"
+
+	"github.com/paulgureghian/Go_Programs/GoRestApi/routes"
 )
 
 func main() {
 
-	r := mux.NewRouter().StrictSlash(true)
+	router := routes.MovieRoutes()
 
-	r.HandleFunc("/", func(rw http.ResponseWriter, r *http.Request) {
-		fmt.Fprintf(rw, "Go server")
-	}).Methods(http.MethodGet)
+	http.Handle("/api/", router)
 
 	log.Println("Listening...")
-	log.Fatal(http.ListenAndServe(":8081", r))
+	log.Fatal(http.ListenAndServe(":8081", router))
+
 }
