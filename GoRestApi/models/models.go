@@ -1,3 +1,5 @@
+// The models package holds custom data types.
+
 package models
 
 type Movie struct {
