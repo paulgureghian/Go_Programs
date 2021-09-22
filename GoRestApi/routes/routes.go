@@ -1,3 +1,5 @@
+// The routes package maps the http requests to the relevant functions in the controller package. 
+
 package routes
 
 import (
