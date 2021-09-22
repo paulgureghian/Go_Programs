@@ -1,3 +1,5 @@
+// The controller package holds CRUD operations.
+
 package controller
 
 import (
