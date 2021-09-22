@@ -1,3 +1,7 @@
+// Created by Paul A. Gureghian in Sept 2021.
+
+// The main package passes http requests to the router.
+
 package main
 
 import (
