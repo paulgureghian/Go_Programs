@@ -1,3 +1,5 @@
+// The db package holds a mock database.
+
 package db
 
 import "github.com/paulgureghian/Go_Programs/GoRestApi/models"
